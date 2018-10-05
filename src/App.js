@@ -103,14 +103,16 @@ class App extends Component {
     console.log(this.state);
     return (
       <div className='App'>
-                <img className="logo" src="../pic.jpg"></img>
-
+       <img className="logo" src="../pic.jpg"></img>  
         <div className='App-header'>
-          <h1>Ensemble Energy Dashboard</h1>
-          <span onClick={this.costByServiceMap}>Cost by Service Type</span>
-          <span onClick={this.topRepairsByCost}>Top Repairs by Cost</span>
-          <span onClick={this.topRepairsByTime}>Top Repairs by Time</span>
-          <span onClick={this.formatedTable}>Database</span>
+          <div className="headerContainer">
+            <h1>Company Dashboard</h1>
+            <span onClick={this.costByServiceMap}>Cost by Service Type</span>
+            <span onClick={this.topRepairsByCost}>Top Repairs by Cost</span>
+            <span onClick={this.topRepairsByTime}>Top Repairs by Time</span>
+            <span onClick={this.formatedTable}>Database</span>
+          </div> 
+          
         </div>
         <div className='Board'>
           {this.state.FormatedTable.show ? 
