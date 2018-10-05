@@ -10,7 +10,7 @@ Data representation application using React.js as a framework and Charts.js to r
 
 <h3>Technologies used</h3>
 - Javascript<br>
-- React.js
+- React.js<br>
 - Charts.js
 
 <h3>Demo</h3>
@@ -18,6 +18,6 @@ Data representation application using React.js as a framework and Charts.js to r
 <img src=public/gif.gif>
 
 <h3>Instructions to play</h3>
-- Using terminal do:
-    - npm install
+- Using terminal do:<br>
+    - npm install<br>
     - npm start
